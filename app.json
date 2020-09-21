@@ -1,0 +1,13 @@
+{
+    "name": "CRM AXG",
+    "description": "Heroku Connect Sample App - CRM AXG",
+    "repository": "https://github.com/hermy2/heroku-crm-axg-app",
+    "success_url": "/setup.html",
+    "env": {
+      "PGSSLMODE": {
+        "description": "Require SSL for Postgres",
+        "value": "require"
+      }
+    }
+  }
+  
