@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const pg = require('pg');
+var express = require('express');
+var bodyParser = require('body-parser');
+var pg = require('pg');
 
-const app = express();
+var app = express();
 
 app.set('port', process.env.PORT || 5000);
 
